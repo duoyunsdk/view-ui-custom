@@ -32,12 +32,15 @@
 @text-color-secondary: fade(@black, 45%);
 @heading-color: fade(#000, 85%);
 @heading-color-dark: fade(@white, 100%);
-@font-size-base         : 14px;
+@font-size-base         : 13px;
 @font-size-small        : 12px;
-@font-size-large        : @font-size-base + 2px;
+@font-size-large        : 14px;
+@font-size-xlarge       : @font-size-base + 2px;
 @line-height-base       : 1.5;
 @line-height-computed   : floor((@font-size-base * @line-height-base));
 @border-radius-base     : 6px;
+@border-radius-large    : 6px;
+@border-radius-medium   : 3px;
 @border-radius-small    : 4px;
 @cursor-disabled        : not-allowed;
 
@@ -79,7 +82,8 @@
 
 // Button
 @btn-height-base        : 32px;
-@btn-height-large       : 40px;
+@btn-height-large       : 36px;
+@btn-height-xlarge      : 40px;
 @btn-height-small       : 24px;
 
 @btn-padding-base       : 0 @padding-md - 1px;
@@ -92,6 +96,7 @@
 @btn-padding-small-icon : 1px 7px 2px;
 @btn-font-size          : @font-size-base;
 @btn-font-size-large    : @font-size-large;
+@btn-font-size-xlarge   : @font-size-xlarge;
 @btn-font-size-small    : @font-size-base;
 @btn-border-radius      : 4px;
 @btn-border-radius-small: 3px;
@@ -125,6 +130,7 @@
 @grid-gutter-width           : 0;
 @layout-body-background      : #f5f7f9;
 @layout-header-background    : #515a6e;
+@layout-header-height-base   : 48px;
 @layout-header-height        : 64px;
 @layout-header-padding       : 0 50px;
 @layout-footer-padding       : 24px 50px;
@@ -140,7 +146,8 @@
 
 // Input
 @input-height-base           : 32px;
-@input-height-large          : 40px;
+@input-height-large          : 36px;
+@input-height-xlarge         : 40px;
 @input-height-small          : 24px;
 
 @input-padding-horizontal    : 7px;

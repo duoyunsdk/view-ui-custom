@@ -31,7 +31,7 @@
         transition: border @transition-time @ease-in-out, color @transition-time @ease-in-out;
 
         a {
-            font-family: "Monospaced Number";
+            //font-family: "Monospaced Number";
             margin: 0 6px;
             text-decoration: none;
             color: @text-color;
@@ -166,7 +166,7 @@
 
         a {
             color: #666;
-            font-size: 14px;
+            font-size: @font-size-base;
         }
 
         &:hover {
@@ -206,6 +206,7 @@
         &-elevator {
             display: inline-block;
             vertical-align: middle;
+            font-size: @font-size-base;
             //float: left;
             height: @btn-circle-size;
             line-height: @btn-circle-size;
@@ -281,7 +282,7 @@
         border: 0;
         margin: 0;
         min-width: @btn-circle-size-small;
-        height: @btn-circle-size-small;
+        height: @btn-circle-size-small + 2px;
         line-height: @btn-circle-size-small;
         border-radius: @btn-border-radius-small;
     }
