@@ -40,7 +40,7 @@ Modal.newInstance = properties => {
             }
             footerVNodes.push(h(Button, {
                 props: {
-                    type: 'primary',
+                    type: 'default',
                     loading: this.buttonLoading
                 },
                 on: {

@@ -38,10 +38,10 @@
 @font-size-xlarge       : @font-size-base + 2px;
 @line-height-base       : 1.5;
 @line-height-computed   : floor((@font-size-base * @line-height-base));
-@border-radius-base     : 6px;
-@border-radius-large    : 6px;
-@border-radius-medium   : 3px;
-@border-radius-small    : 4px;
+@border-radius-base     : 2px;
+@border-radius-small    : 0;
+@border-radius-large    : 4px;
+@border-radius-xlarge   : 6px;
 @cursor-disabled        : not-allowed;
 
 // vertical paddings
@@ -98,8 +98,8 @@
 @btn-font-size-large    : @font-size-large;
 @btn-font-size-xlarge   : @font-size-xlarge;
 @btn-font-size-small    : @font-size-base;
-@btn-border-radius      : 4px;
-@btn-border-radius-small: 3px;
+@btn-border-radius      : 3px;
+@btn-border-radius-small: 2px;
 @btn-group-border       : shade(@primary-color, 5%);
 
 @btn-disable-color      : #c5c8ce;
@@ -130,8 +130,8 @@
 @grid-gutter-width           : 0;
 @layout-body-background      : #f5f7f9;
 @layout-header-background    : #515a6e;
-@layout-header-height-base   : 48px;
-@layout-header-height        : 64px;
+@layout-header-height        : 48px;
+@layout-header-height-large  : 64px;
 @layout-header-padding       : 0 50px;
 @layout-footer-padding       : 24px 50px;
 @layout-footer-background    : @layout-body-background;
