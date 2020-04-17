@@ -369,7 +369,7 @@
                         }]
                     }]
                 }]
-            }
+            };
         },
         methods: {
             handleSubmit (name) {
@@ -379,7 +379,7 @@
                     } else {
                         this.$Message.error('Fail!');
                     }
-                })
+                });
             },
             handleReset (name) {
                 this.$refs[name].resetFields();
